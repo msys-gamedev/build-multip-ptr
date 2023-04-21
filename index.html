@@ -21,11 +21,11 @@
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
         var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/PTRBuild.loader.js";
+        var loaderUrl = buildUrl + "/build-multip-ptr.loader.js";
         var config = {
-          dataUrl: buildUrl + "/PTRBuild.data",
-          frameworkUrl: buildUrl + "/PTRBuild.framework.js",
-          codeUrl: buildUrl + "/PTRBuild.wasm",
+          dataUrl: buildUrl + "/build-multip-ptr.data",
+          frameworkUrl: buildUrl + "/build-multip-ptr.framework.js",
+          codeUrl: buildUrl + "/build-multip-ptr.wasm",
           memoryUrl: buildUrl + "/",
           symbolsUrl: buildUrl + "/",
           streamingAssetsUrl: "StreamingAssets",
